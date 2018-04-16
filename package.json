@@ -32,6 +32,7 @@
     "@paulcbetts/cld": "^2.4.6",
     "@paulcbetts/spellchecker": "^4.0.6",
     "bcp47": "^1.1.2",
+    "cld": "git+https://github.com/axosoft/node-cld.git#f860dc885831375bf90326a5001d84dc1f20068d",
     "debug": "^2.6.3",
     "electron-remote": "^1.1.1",
     "keyboard-layout": "^2.0.7",
