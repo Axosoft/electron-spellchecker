@@ -1,6 +1,6 @@
 {
-  "name": "electron-spellchecker",
-  "version": "1.1.2",
+  "name": "@axosoft/electron-spellchecker",
+  "version": "1.1.2-test",
   "description": "Implement spellchecking, correctly",
   "scripts": {
     "doc": "esdoc -c ./esdoc.json",
@@ -29,10 +29,9 @@
   "main": "lib/index.js",
   "homepage": "https://github.com/paulcbetts/electron-spellchecker",
   "dependencies": {
-    "@paulcbetts/cld": "^2.4.6",
+    "@axosoft/cld": "^2.4.8",
     "@paulcbetts/spellchecker": "^4.0.6",
     "bcp47": "^1.1.2",
-    "cld": "git+https://github.com/axosoft/node-cld.git#f860dc885831375bf90326a5001d84dc1f20068d",
     "debug": "^2.6.3",
     "electron-remote": "^1.1.1",
     "keyboard-layout": "^2.0.7",
