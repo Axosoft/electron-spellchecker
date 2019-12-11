@@ -1,5 +1,5 @@
 {
-  "name": "electron-spellchecker",
+  "name": "@axosoft/electron-spellchecker",
   "version": "2.2.1",
   "description": "Implement spellchecking, correctly",
   "scripts": {
