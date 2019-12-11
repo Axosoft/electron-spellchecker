@@ -1,4 +1,4 @@
-const cld = require('cld');
+const cld = require('@axosoft/cld');
 
 module.exports = {
   detect: function (text) {

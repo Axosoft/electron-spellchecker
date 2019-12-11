@@ -31,9 +31,9 @@
   "homepage": "https://github.com/electron-userland/electron-spellchecker",
   "dependencies": {
     "@aabuhijleh/electron-remote": "^1.4.0",
+    "@axosoft/cld": "^2.5.1",
     "@felixrieseberg/spellchecker": "^4.0.12",
     "bcp47": "^1.1.2",
-    "cld": "^2.5.1",
     "debug": "^4.1.1",
     "keyboard-layout": "^2.0.16",
     "lru-cache": "^5.1.1",
