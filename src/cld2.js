@@ -1,20 +1,12 @@
-const cld = require('cld');
+const cld = require('@axosoft/cld');
 
 module.exports = {
-  detect: function (text) {
-    return new Promise((res,rej) => {
-      cld.detect(text, (err, result) => {
-        if (err) {
-          rej(new Error(err.message));
-          return;
-        }
-        if (!result.reliable || result.languages[0].percent < 85) {
-          rej(new Error('Not enough reliable text'));
-          return;
-        }
+  async detect(text) {
+    const result = await cld.detect(text);
+    if (!result.reliable || result.languages[0].percent < 85) {
+      throw new Error('Not enough reliable text');
+    }
 
-        res(result.languages[0].code);
-      });
-    });
+    return result.languages[0].code;
   }
 }
