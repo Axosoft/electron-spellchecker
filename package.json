@@ -31,7 +31,7 @@
   "homepage": "https://github.com/electron-userland/electron-spellchecker",
   "dependencies": {
     "@axosoft/cld": "^2.6.1",
-    "@felixrieseberg/spellchecker": "^4.0.12",
+    "@axosoft/spellchecker": "^4.0.13",
     "bcp47": "^1.1.2",
     "debug": "^4.1.1",
     "keyboard-layout": "^2.0.16",
